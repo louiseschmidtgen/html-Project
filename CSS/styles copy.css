@@ -1,0 +1,59 @@
+/**************TAG SELECTORS******************/
+body,h1,h2,h3,h4,h5,h6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body {
+    background-color: rgba(114, 162, 145, 0.301);
+    margin: 0;
+}
+h1, h2, h3 {
+    color:rgb(29, 84, 43)
+}
+
+img {
+    border-radius: 7px;
+    padding: 5px;
+    height: "200";
+    border-width: 20px;
+    border-color: white;
+
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.5;
+  }
+
+div {
+    padding: 5px;
+}
+
+/**************CLASS SELECTORS******************/
+
+.customimg {
+    border: 1px solid rgb(12, 0, 0);
+    border-radius: 7px;
+    padding: 5px;
+    background-color:rgb(0, 0, 0);
+    height: 200;
+    /* background-color:rgb(3, 106, 29) */
+}
+
+
+.innercontainer {
+    /* background-color: #94B49F; */
+    padding: 5px;  
+    margin: 20px
+}
+
+.titlecontainer {
+    margin: 5px;
+    /* background-image: url("title.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+    padding: 5px;
+    margin: 0px;
+}
+/**************ID SELECTORS******************/
+
+
+/* id can only be used once in body */

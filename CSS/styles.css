@@ -1,14 +1,129 @@
-body,h1,h2,h3,h4,h5,h6 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-body {
-    background-color:rgb(255, 255, 255);
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2, h3 {
-    color:rgb(29, 84, 43)
+body {
+    color: #292929;
+    font:  Georgia;
+    font-family: sans-serif; 
+    font-weight: 300;
+    font-size: 1em;
+    
 }
 
 p {
-    color: rgb(0, 0, 0)
+    padding: 0 10px;
+    line-height: 1.8;
 }
+
+ul li {
+    padding-right: 10px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+    /* margin: 0 auto 0 auto; */
+    
+}
+
+div#header {
+    position: relative;
+    text-align: center;
+}
+
+div#header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: rgb(32, 0, 91);
+    color: #fcf9f9;
+    font-size: 3rem;
+    font-family: serif; 
+}
+
+div#header #a1 {
+    position: absolute;
+    right: 0;
+    top: 23px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+div#header #a2 {
+    position: absolute;
+    right: 46px;
+    top: 23px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+div#navigation {
+    background: rgb(247, 246, 246);
+}
+
+div#navigation li {
+    list-style: none;
+}
+
+div#extra {
+    background: rgb(198, 197, 201);
+}
+
+div#footer {
+    background: rgb(7, 18, 101);
+    color: #fff;
+}
+
+div#footer p {
+    padding: 20px 10px;
+}
+
+div#wrapper {
+    float: left;
+    width: 100%;
+    background: white;
+    /* background: rgba(114,162,145,0.301); */
+}
+
+div#content {
+    margin: 0 0 0 20%;
+}
+
+div#navigation {
+    float: left;
+    width: 20%;
+    margin-left: -100%;
+}
+
+div#extra {
+    float: left;
+    width: 20%;
+    margin-left: -20%;
+}
+
+div#footer {
+    clear: left;
+    width: 100%;
+}
+
+
+/* Container holding the image and the text */
+.titlecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
